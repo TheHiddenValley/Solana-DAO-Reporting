@@ -27,7 +27,7 @@ const Navbar = ({balance}) => {
     <nav className="navbar">
      <Link to="https://nextcascade.vercel.app/">
         <div>
-            <img src='https://cdn.discordapp.com/attachments/925701892665933834/1063365221105803304/logo.png'/>
+            <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png'/>
         </div>
      </Link>
     
