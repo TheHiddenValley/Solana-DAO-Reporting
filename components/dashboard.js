@@ -557,32 +557,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 
                   {/* Displaying Coin */}
                   <Stack sx={{ height: '190px' }}>
-                    {
-                      isLoading ?
-                        <Spinner /> :
-                        <div id="coin" className={betType}>
-                          <div className="side-a">
-                            <img
-                              src="/assets/coin_tail.png"
-                              alt=".."
-                              style={{ height: '190px' }}
-                            />
-                          </div>
-                          <div className="side-b">
-                            <img
-                              src="/assets/coin_head.png"
-                              alt=".."
-                              style={{ height: '190px' }}
-                            />
-                          </div>
-                        </div>
-                    }
-
-                    <WinLoseModal
-                      open={open}
-                      onClose={() => setOpen(false)}
-                      isWin={isWin}
-                    />
+                    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
                   </Stack>
 
                   {/* Select Tails Button */}
