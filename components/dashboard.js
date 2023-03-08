@@ -526,68 +526,13 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   flexWrap="wrap"
                   sx={{ width: '100%' }}
                 >
-                  {/* Select Heads Button */}
-                  <Stack>
-                    <Button
-                      onClick={headsSelected}
-                      sx={{
-                        borderRadius: '12px',
-                        background:
-                          selected === 'HEADS'
-                            ? 'linear-gradient(rgb(255, 230, 105) 15%, rgb(255, 140, 100) 46%, rgb(255, 100, 100) 67%)'
-                            : '',
-                      }}
-                    >
-                      <Stack
-                        sx={{
-                          borderRadius: '10px',
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          padding: '20px 25px',
-                        }}
-                      >
-                        <img
-                          src="/assets/coin_head.png"
-                          alt=".."
-                          style={{ height: '65px' }}
-                        />
-                        <HeadColor> HEADs </HeadColor>
-                      </Stack>
-                    </Button>
-                  </Stack>
+
 
                   {/* Displaying Coin */}
                   <Stack sx={{ height: '600px' }}>
 
                   </Stack>
 
-                  {/* Select Tails Button */}
-                  <Stack>
-                    <Button
-                      onClick={tailsSelected}
-                      sx={{
-                        borderRadius: '12px',
-                        background:
-                          selected === 'TAILS'
-                            ? 'linear-gradient(rgb(21, 241, 178) 15%, rgb(32, 226, 184) 46%, rgb(62, 186, 199) 60%, rgb(110, 123, 223) 100%, rgb(149, 71, 243) 100%)'
-                            : '',
-                      }}
-                    >
-                      <Stack
-                        sx={{
-                          borderRadius: '10px',
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          padding: '20px 25px',
-                        }}
-                      >
-                        <img
-                          src="/assets/coin_tail.png"
-                          alt=".."
-                          style={{ height: '65px' }}
-                        />
-                        <TailColor> TAILS </TailColor>
-                      </Stack>
-                    </Button>
-                  </Stack>
                 </Stack>
               </Container>  
 
