@@ -526,13 +526,9 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   flexWrap="wrap"
                   sx={{ width: '100%' }}
                 >
-                  <Stack sx={{ height: '600px' }}>
-
-        <div className="container">
+                          <div className="container">
           <iframe width="1200" height="742" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
         </div>
-                    
-                  </Stack>
 
                   {/* Displaying Coin */}
                   <Stack sx={{ height: '600px' }}>
