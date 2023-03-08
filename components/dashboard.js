@@ -532,8 +532,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   <Stack sx={{ height: '600px' }}>
 
         <div className="m-5">
-            <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive%22%3E</iframe>
-        </div>
+          <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
+</div>
                     
                   </Stack>
                 </Stack>
