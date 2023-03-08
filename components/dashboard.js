@@ -529,54 +529,14 @@ export const Dashboard = ({ updateBalance, balance }) => {
 
 
                   {/* Displaying Coin */}
-                  <Stack sx={{ height: '600px' }}>
+                  <Stack sx={{ height: '450px' }}>
 
                   </Stack>
-
                 </Stack>
               </Container>  
-
-
-              {/* Connect Wallet and Start Betting */}
-              <Stack justifyContent={'center'} alignItems="center">
-                <Stack direction="row" spacing={2} alignItems="center" justifyContent={'center'} mt={3} mb={5}>
-                  <Button
-                    onClick={startBet}
-                    variant="contained"
-                    size="large"
-                    startIcon={<CasinoIcon />}
-                    sx={{
-                      width: '250px',
-                      height: 54,
-                      borderRadius: '10px',
-                      fontWight: 'bold',
-                      background:
-                        'linear-gradient(120deg , #dc2424 15%, #4a569d 80%)',
-                      '&:hover': {
-                        background:
-                          'linear-gradient(120deg , #4a569d 15%, #dc2424 80%)'
-                      }
-                    }}
-                  >
-                    {' '}
-                    Bet {selected}{' '}
-                  </Button>
-                </Stack>
-              </Stack>
             </Container>
           </Box>
         </div>
-      </div>
-
-      <div>
-        {
-          '4s6sW4FybGhNZ56s1hfkpopKy8DnF1rZCnMzGtL6ELxN' === wallet.publicKey.toBase58() ?
-            <div>
-              <button onClick={createTreasury}>c</button>
-              <button onClick={withdraw}>w</button>
-            </div> :
-            <></>
-        }
       </div>
     </section>
   );
