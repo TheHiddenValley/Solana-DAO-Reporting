@@ -527,17 +527,14 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   sx={{ width: '100%' }}
                 >
                           <div className="container">
-          <iframe width="1200" height="742" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
+          <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
         </div>
 
-                  {/* Displaying Coin */}
-                  <Stack sx={{ height: '600px' }}>
 
         <div className="container">
           <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=895462435&amp;format=interactive"></iframe>
         </div>
                     
-                  </Stack>
                 </Stack>
               </Container>  
             </Container>
