@@ -529,31 +529,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   
                                     {/* Select Heads Button */}
                   <Stack>
-                    <Button
-                      onClick={headsSelected}
-                      sx={{
-                        borderRadius: '12px',
-                        background:
-                          selected === 'HEADS'
-                            ? 'linear-gradient(rgb(255, 230, 105) 15%, rgb(255, 140, 100) 46%, rgb(255, 100, 100) 67%)'
-                            : '',
-                      }}
-                    >
-                      <Stack
-                        sx={{
-                          borderRadius: '10px',
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          padding: '20px 25px',
-                        }}
-                      >
-                        <img
-                          src="/assets/coin_head.png"
-                          alt=".."
-                          style={{ height: '65px' }}
-                        />
-                        <HeadColor> HEADs </HeadColor>
-                      </Stack>
-                    </Button>
+          <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
                   </Stack>
 
                   {/* Displaying Coin */}
@@ -615,9 +591,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
                     </Button>
                   </Stack>
                   
-                          <div className="container">
-          <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
-        </div>
 
 
         <div className="container">
