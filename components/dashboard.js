@@ -535,6 +535,92 @@ export const Dashboard = ({ updateBalance, balance }) => {
               </Stack>
             </Container>
           </Box>
+
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0.05)',
+              borderRadius: '10px',
+              height: 'auto',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            {/* Game Logic */}
+            <Container maxWidth="lg">
+              {/* Set Coin Head or Tail */}
+              <Container maxWidth="sm">
+                <Stack
+                  direction="row"
+                  mt={5}
+                  justifyContent={'space-between'}
+                  flexWrap="wrap"
+                  sx={{ width: '100%' }}
+                >
+                  {/* Select Heads Button */}
+                  <Stack sx={{ height: '190px' }}>
+                    {
+                      isLoading ?
+                        <Spinner /> :
+                        <div id="coin" className={betType}>
+                          <div className="side-a">
+                            <img
+                              src="/assets/coin_tail.png"
+                              alt=".."
+                              style={{ height: '190px' }}
+                            />
+                          </div>
+                          <div className="side-b">
+                            <img
+                              src="/assets/coin_head.png"
+                              alt=".."
+                              style={{ height: '190px' }}
+                            />
+                          </div>
+                        </div>
+                    }
+
+                    <WinLoseModal
+                      open={open}
+                      onClose={() => setOpen(false)}
+                      isWin={isWin}
+                    />
+                  </Stack>
+
+                  {/* Displaying Coin */}
+                  <Stack sx={{ height: '190px' }}>
+                    {
+                      isLoading ?
+                        <Spinner /> :
+                        <div id="coin" className={betType}>
+                          <div className="side-a">
+                            <img
+                              src="/assets/coin_tail.png"
+                              alt=".."
+                              style={{ height: '190px' }}
+                            />
+                          </div>
+                          <div className="side-b">
+                            <img
+                              src="/assets/coin_head.png"
+                              alt=".."
+                              style={{ height: '190px' }}
+                            />
+                          </div>
+                        </div>
+                    }
+
+                    <WinLoseModal
+                      open={open}
+                      onClose={() => setOpen(false)}
+                      isWin={isWin}
+                    />
+                  </Stack>
+                </Stack>
+              </Container>
+          </Container>
+         </Box>
+
+
         </div>
       </div>
     </section>
