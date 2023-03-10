@@ -558,7 +558,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
             }}
           >
             <Container maxWidth="lg">
-                    <iframe width="1200" height="1200" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    <iframe width="1000" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
           </Container>
          </Box>
 
