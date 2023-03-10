@@ -515,9 +515,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
               p: 3,
             }}
           >
-            {/* Game Logic */}
+            
             <Container maxWidth="lg">
-              {/* Set Coin Head or Tail */}
               <Container maxWidth="sm">
                 <Stack
                   direction="row"
@@ -526,76 +525,15 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   flexWrap="wrap"
                   sx={{ width: '100%' }}
                 >
-                  
-                                    {/* Select Heads Button */}
+                  {/* Main Pie Chart */}
                   <Stack>
-          <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=485486164&amp;format=interactive"></iframe>
-                  </Stack>
+<iframe width="474" height="371" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  </Stack>
 
-                  {/* Displaying Coin */}
-                  <Stack sx={{ height: '190px' }}>
-                    {
-                      isLoading ?
-                        <Spinner /> :
-                        <div id="coin" className={betType}>
-                          <div className="side-a">
-                            <img
-                              src="/assets/coin_tail.png"
-                              alt=".."
-                              style={{ height: '190px' }}
-                            />
-                          </div>
-                          <div className="side-b">
-                            <img
-                              src="/assets/coin_head.png"
-                              alt=".."
-                              style={{ height: '190px' }}
-                            />
-                          </div>
-                        </div>
-                    }
-
-                    <WinLoseModal
-                      open={open}
-                      onClose={() => setOpen(false)}
-                      isWin={isWin}
-                    />
-                  </Stack>
-
-                  {/* Select Tails Button */}
+                  {/* Sharky.fi Profit Chart */}
                   <Stack>
-                    <Button
-                      onClick={tailsSelected}
-                      sx={{
-                        borderRadius: '12px',
-                        background:
-                          selected === 'TAILS'
-                            ? 'linear-gradient(rgb(21, 241, 178) 15%, rgb(32, 226, 184) 46%, rgb(62, 186, 199) 60%, rgb(110, 123, 223) 100%, rgb(149, 71, 243) 100%)'
-                            : '',
-                      }}
-                    >
-                      <Stack
-                        sx={{
-                          borderRadius: '10px',
-                          background: 'rgba(255, 255, 255, 0.05)',
-                          padding: '20px 25px',
-                        }}
-                      >
-                        <img
-                          src="/assets/coin_tail.png"
-                          alt=".."
-                          style={{ height: '65px' }}
-                        />
-                        <TailColor> TAILS </TailColor>
-                      </Stack>
-                    </Button>
-                  </Stack>
-                  
+<iframe width="464" height="376" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 </Stack>
 
 
-        <div className="container">
-          <iframe width="600" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrVsZWJvvmyIPf710YDerz8LqUFXbiiRT4DhQoheeylbvqi6y_AAUfL4RJqqE2qA/pubchart?oid=895462435&amp;format=interactive"></iframe>
-        </div>
                     
                 </Stack>
               </Container>  
