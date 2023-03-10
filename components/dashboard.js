@@ -517,7 +517,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
           >
             
             <Container maxWidth="lg">
-              <Container maxWidth="sm">
                 <Stack
                   direction="row"
                   mt={5}
@@ -535,7 +534,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 </Stack>
                     
                 </Stack>
-              </Container>  
             </Container>
           </Box>
         </div>
