@@ -508,7 +508,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         <div className="container">
           <Box
             sx={{
-              background: 'rgba(255, 255, 255, 0.05)',
+              background: 'rgba(255, 255, 255, 0.5)',
               borderRadius: '10px',
               height: 'auto',
               width: '100%',
