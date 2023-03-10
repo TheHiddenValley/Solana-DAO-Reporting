@@ -601,7 +601,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   {/* Displaying Coin */}
                   <Stack sx={{ height: '190px' }}>
                     <div>
-                    Part 2 - Gitbook
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
                     </div>
                   </Stack>
                 </Stack>
