@@ -526,14 +526,13 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 >
                   {/* Main Pie Chart */}
                 <Stack>
-<iframe width="474" height="371" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  </Stack>
-
+<iframe width="474" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
+                </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-<iframe width="464" height="376" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 </Stack>
-
-                    
+<iframe width="464" height="376" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
                 </Stack>
+              </Stack>
             </Container>
           </Box>
         </div>
