@@ -563,6 +563,38 @@ export const Dashboard = ({ updateBalance, balance }) => {
          </Box>
 
 
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '300',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            </Box>
+
+
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0.5)',
+              borderRadius: '10px',
+              height: 'auto',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            <Container maxWidth="lg">        
+              <div>        
+      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4'></img>
+      </a>  
+        </div>
+          </Container>
+         </Box>
+
+
+
         </div>
       </div>
     </section>
