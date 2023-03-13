@@ -26,7 +26,7 @@ const Navbar = ({balance}) => {
   return (
     <nav className="navbar">
         <div>
-     <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+     <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
         <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png'></img>
       </a>  
         </div>
@@ -37,7 +37,7 @@ const Navbar = ({balance}) => {
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
         <div>        
       <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' height="10" width="10"></img>
+        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' height="50" width="50"></img>
       </a>  
         </div>
           <Typography
