@@ -45,6 +45,7 @@ export default function Home() {
           <Dashboard connected={wallet.connected} updateBalance={updateBalance} balance={balance}/>
           :
           <Welcome>
+            <video src="https://goo.mobstudios.io/loading-logo.mp4" autoPlay="true" />
             Please connect your wallet
           </Welcome>
       }
