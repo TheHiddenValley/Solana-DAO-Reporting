@@ -35,7 +35,11 @@ const Navbar = ({balance}) => {
 
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
-         
+     <Link to="https://nextcascade.vercel.app/">     
+        <div>
+        <img src='https://d33wubrfki0l68.cloudfront.net/42cc9dc1dd30eee1bd3438e853a8cf0f82165f0c/ea050/assets/images/tool-icons/gitbook.png'/>
+        </div>
+     </Link>
           <Typography
           style={{
             color: '#ffffff',
