@@ -27,7 +27,7 @@ const Navbar = ({balance}) => {
     <nav className="navbar">
         <div>
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
-        <video src="https://media.discordapp.net/attachments/1075476230637375528/1084728725704294450/InShot_20230313_144419362.mp4" autoPlay="true" width="10%" height="10%"/></img>
+        <video src="https://media.discordapp.net/attachments/1075476230637375528/1084728725704294450/InShot_20230313_144419362.mp4" autoPlay="true" width="10%" height="10%"/></video>
       </a>  
         </div>
 
