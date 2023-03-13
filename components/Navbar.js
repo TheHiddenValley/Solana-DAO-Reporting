@@ -23,6 +23,11 @@ const Navbar = ({balance}) => {
   //   })();
   // }, [wallet, connection]);
 
+const img1 = 'https://images.pokemontcg.io/base1/24.png'
+const img2 = 'https://images.pokemontcg.io/base1/4.png'
+const img3 = 'https://images.pokemontcg.io/base1/42.png'
+const img4 = 'https://images.pokemontcg.io/base1/2.png'
+  
   return (
     <nav className="navbar">
         <div>
@@ -31,7 +36,23 @@ const Navbar = ({balance}) => {
       </a>  
         </div>
     
-    
+  const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
+  const imageRef = useRef(null);
+
+  return (
+    <img 
+      onMouseOver={() => {
+        imageRef.current.src = secondaryImg;
+      }}
+      onMouseOut={() => {
+        imageRef.current.src= primaryImg;
+      }}
+      src={primaryImg} 
+      alt=""
+      ref={imageRef}
+    />
+  )
+}
 
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
@@ -58,5 +79,25 @@ const Navbar = ({balance}) => {
     </nav>
   )
 }
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'React'
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <ImageChangeOnMouseOver/>
+      </div>
+    );
+  }
+}
+
+render(<App />, document.getElementById('root'));
+
 
 export default Navbar
