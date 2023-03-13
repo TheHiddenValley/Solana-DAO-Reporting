@@ -25,21 +25,21 @@ const Navbar = ({balance}) => {
 
   return (
     <nav className="navbar">
-     <Link to="https://nextcascade.vercel.app/">
         <div>
-            <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png'/>
+     <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+        <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png'></img>
+      </a>  
         </div>
-     </Link>
     
     
 
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
-     <Link to="https://nextcascade.vercel.app/">     
-        <div>
-        <img src='https://i.gzn.jp/img/2021/04/02/gitbook/00.png'/>
+        <div>        
+      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4'></img>
+      </a>  
         </div>
-     </Link>
           <Typography
           style={{
             color: '#ffffff',
