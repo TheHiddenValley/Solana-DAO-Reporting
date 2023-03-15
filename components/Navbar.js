@@ -25,11 +25,11 @@ const Navbar = ({balance}) => {
   
   return (
     <nav className="navbar">
-        <div className='bg-image hover-zoom'>
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
-        <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png'></img>
-      </a>  
+        <div className='bg-image hover-zoom'>
+            <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' className='w-100'></img>
         </div>
+      </a>  
 
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
