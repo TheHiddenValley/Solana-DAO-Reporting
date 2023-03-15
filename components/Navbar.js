@@ -1,4 +1,3 @@
-import React, { Fragment, useState, useEffect } from 'react'
 import { Button, Typography, useMediaQuery, Stack, Link } from '@mui/material'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { useWallet } from '@solana/wallet-adapter-react';
