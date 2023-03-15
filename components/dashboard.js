@@ -526,13 +526,13 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 >
                   {/* Main Pie Chart */}
                 <Stack>
-      <h2 style={{color: "white"}}>Fuck it.</h2>
-      <p2 style={{color: "white"}}>We MOB!</p2>            
+      <h2 style={{color: "white", font-size: "32vw"}}>Fuck it.</h2>
+      <p2 style={{color: "white", font-size: "32vw"}}>We MOB!</p2>            
                 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-      <h2 style={{color: "white"}}>It is time for the takeover</h2>
-      <p2 style={{color: "white"}}>Add a little style!.</p2>                 
+      <h2 style={{color: "white", font-size: "32vw"}}>It is time for the takeover</h2>
+      <p2 style={{color: "white", font-size: "32vw"}}>Add a little style!.</p2>                 
                 </Stack>
               </Stack>
             </Container>
