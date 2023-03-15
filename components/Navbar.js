@@ -6,6 +6,7 @@ import * as anchor from "@project-serum/anchor";
 import { SOLANA_HOST } from "../utils/const";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import Image from 'next/image';
+import styles from "../styles/globals.css";
 
 const connection = new anchor.web3.Connection(SOLANA_HOST);
 
