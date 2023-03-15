@@ -12,6 +12,13 @@ const connection = new anchor.web3.Connection(SOLANA_HOST);
 const Navbar = ({balance}) => {
   const wallet = useWallet();
 
+function App() {
+  let audio = new Audio("/Gods_of_the_Universe.mp3")
+  
+const start = () => {
+    audio.play()
+  }
+  
   // const [balance, setBalance] = useState(0);
 
   // useEffect(() => {
@@ -31,7 +38,8 @@ const Navbar = ({balance}) => {
       </a>  
         </div>
 
-    
+    <button onClick={start}>Play</button>
+  
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
           <Typography
           style={{
