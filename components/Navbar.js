@@ -6,6 +6,7 @@ import * as anchor from "@project-serum/anchor";
 import { SOLANA_HOST } from "../utils/const";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import Image from 'next/image';
+import React from 'react';
 
 const connection = new anchor.web3.Connection(SOLANA_HOST);
 
@@ -13,7 +14,7 @@ const Navbar = ({balance}) => {
   const wallet = useWallet();
 
 function App() {
-  let audio = new Audio("/Gods_of_the_Universe.mp3")
+  let audio = new Audio("/mp3/Gods_of_the_Universe.mp3")
   
 const start = () => {
     audio.play()
