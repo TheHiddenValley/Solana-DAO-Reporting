@@ -24,22 +24,6 @@ const Navbar = ({balance}) => {
   // }, [wallet, connection]);
   
   return (
-    
-  <style>
-.zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.5);
-}
-</style>  
-    
     <nav className="navbar">
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
         <div className="zoom">
