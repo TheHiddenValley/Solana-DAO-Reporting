@@ -24,10 +24,26 @@ const Navbar = ({balance}) => {
   // }, [wallet, connection]);
   
   return (
+    
+  <style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+</style>  
+    
     <nav className="navbar">
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
-        <div className='bg-image hover-zoom'>
-            <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' className='w-100'></img>
+        <div className="zoom">
+            <bg src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' className='w-100'></img>
         </div>
       </a>  
 
