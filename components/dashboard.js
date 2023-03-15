@@ -531,7 +531,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-      <h2 style={{color: "white"}}>It is time for the takeover</h1>
+      <h2 style={{color: "white"}}>It is time for the takeover</h2>
       <p2 style={{color: "white"}}>Add a little style!.</p2>                 
                 </Stack>
               </Stack>
