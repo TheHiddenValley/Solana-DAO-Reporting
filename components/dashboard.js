@@ -584,7 +584,10 @@ export const Dashboard = ({ updateBalance, balance }) => {
               p: 3,
             }}
           >
-            <Container maxWidth="lg">        
+            <Container maxWidth="lg">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+              
               <div>        
       <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
         <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4'></img>
