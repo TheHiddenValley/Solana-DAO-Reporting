@@ -529,31 +529,16 @@ export const Dashboard = ({ updateBalance, balance }) => {
           <div className="hero min-h-16 py-4">
             <div className="text-center hero-content">
               <div className="max-w-lg">
-                <h1 className="mb-5 text-5xl font-bold">
+                  <h1 style={{color: "white", fontSize: "64px"}}>
                   Fuck it.
                 </h1>
-                <p className="mb-2">
+                <p style={{color: "white", fontSize: "32px"}}>
                   We MOB!
                 </p>
               </div>
             </div>
          </div>
           </div>
-                  {/* Sharky.fi Profit Chart */}
-            <div className="text-center pt-2">
-          <div className="hero min-h-16 py-4">
-            <div className="text-center hero-content">
-              <div className="max-w-lg">
-                <h1 className="mb-5 text-5xl font-bold">
-                  Fuck it.
-                </h1>
-                <p className="mb-2">
-                  We MOB!
-                </p>
-              </div>
-            </div>
-          </div>
-         </div>
               </Stack>
             </Container>
           </Box>
