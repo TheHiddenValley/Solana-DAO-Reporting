@@ -537,6 +537,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 </p>
               </div>
             </div>
+         </div>
           </div>
                   {/* Sharky.fi Profit Chart */}
             <div className="text-center pt-2">
@@ -552,6 +553,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
               </div>
             </div>
           </div>
+         </div>
               </Stack>
             </Container>
           </Box>
