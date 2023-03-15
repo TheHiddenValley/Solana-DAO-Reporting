@@ -30,37 +30,9 @@ const Navbar = ({balance}) => {
     <nav className="navbar">
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
         <div className="zoom">
+            <bg src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' className='w-100'></bg>
         </div>
-      </a>  
-
-                      <Stack sx={{ height: '50px' }}>
-                    {
-                      isLoading ?
-                        <Spinner /> :
-                        <div id="coin" className={betType}>
-                          <div className="side-a">
-                            <img
-                              src="/assets/coin_tail.png"
-                              alt=".."
-                              style={{ height: '50px' }}
-                            />
-                          </div>
-                          <div className="side-b">
-                            <img
-                              src="/assets/coin_head.png"
-                              alt=".."
-                              style={{ height: '50px' }}
-                            />
-                          </div>
-                        </div>
-                    }
-
-                    <WinLoseModal
-                      open={open}
-                      onClose={() => setOpen(false)}
-                      isWin={isWin}
-                    />
-                  </Stack>
+      </a> 
     
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
