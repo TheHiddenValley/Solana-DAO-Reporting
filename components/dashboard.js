@@ -526,7 +526,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 >
                   {/* Main Pie Chart */}
                 <Stack>
-      <h2 style={{color: "white"}}>Fuck it.</h1>
+      <h2 style={{color: "white"}}>Fuck it.</h2>
       <p2 style={{color: "white"}}>We MOB!</p2>            
                 </Stack>
                   {/* Sharky.fi Profit Chart */}
