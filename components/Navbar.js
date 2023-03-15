@@ -30,8 +30,10 @@ const Navbar = ({balance}) => {
     <nav className="navbar">
      <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
         <div className="zoom">
+        </div>
+      </a>  
 
-                  <Stack sx={{ height: '50px' }}>
+                      <Stack sx={{ height: '50px' }}>
                     {
                       isLoading ?
                         <Spinner /> :
@@ -59,9 +61,7 @@ const Navbar = ({balance}) => {
                       isWin={isWin}
                     />
                   </Stack>
-        </div>
-      </a>  
-
+    
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
           <Typography
