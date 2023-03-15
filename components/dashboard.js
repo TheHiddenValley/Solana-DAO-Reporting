@@ -508,6 +508,41 @@ export const Dashboard = ({ updateBalance, balance }) => {
         <div className="container">
           <Box
             sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: 'auto',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            
+            <Container maxWidth="lg">
+                <Stack
+                  direction="row"
+                  mt={5}
+                  justifyContent={'space-between'}
+                  flexWrap="wrap"
+                  sx={{ width: '100%' }}
+                >
+                  {/* Main Pie Chart */}
+                <Stack>
+      <h2 style={{color: "white"}}>Fuck it.</h1>
+      <p2 style={{color: "white"}}>We MOB!</p2>            
+                </Stack>
+                  {/* Sharky.fi Profit Chart */}
+                <Stack>
+      <h2 style={{color: "white"}}>It is time for the takeover</h1>
+      <p2 style={{color: "white"}}>Add a little style!.</p2>                 
+                </Stack>
+              </Stack>
+            </Container>
+          </Box>
+            
+            
+            
+            
+          <Box
+            sx={{
               background: 'rgba(255, 255, 255, 0.5)',
               borderRadius: '10px',
               height: 'auto',
