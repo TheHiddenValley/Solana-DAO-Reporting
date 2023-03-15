@@ -1,3 +1,4 @@
+import React, { Fragment, useState, useEffect } from 'react'
 import { Button, Typography, useMediaQuery, Stack, Link } from '@mui/material'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { useWallet } from '@solana/wallet-adapter-react';
@@ -5,20 +6,12 @@ import * as anchor from "@project-serum/anchor";
 import { SOLANA_HOST } from "../utils/const";
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 import Image from 'next/image';
-import React from 'react';
 
 const connection = new anchor.web3.Connection(SOLANA_HOST);
 
 const Navbar = ({balance}) => {
   const wallet = useWallet();
 
-function App() {
-  let audio = new Audio("/mp3/Gods_of_the_Universe.mp3")
-  
-const start = () => {
-    audio.play()
-  }
-  
   // const [balance, setBalance] = useState(0);
 
   // useEffect(() => {
@@ -38,8 +31,7 @@ const start = () => {
       </a>  
         </div>
 
-    <button onClick={start}>Play</button>
-  
+    
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
           <Typography
           style={{
