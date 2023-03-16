@@ -34,7 +34,7 @@ const Navbar = ({balance}) => {
         </div>
       </a> 
     
-    <script type="text/javascript" src="https://www.scmplayer.net/script.js" 
+    <script> src="https://www.scmplayer.net/script.js" 
 data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Lore Master by Russ a Buss','url':'https://www.youtube.com/watch?v=rBiI6dJxfro&embeds_euri=https%3A%2F%2Fsolympusmob.xyz%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=RussaBuss'}]}" ></script>
 
     
