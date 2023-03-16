@@ -26,7 +26,6 @@ import CardContent from "@material-ui/core/CardContent";
 import SkipPreviousIcon from "@material-ui/icons/SkipPrevious";
 import SkipNextIcon from "@material-ui/icons/SkipNext";
 import { useTheme } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import CardMedia from "@material-ui/core/CardMedia";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
