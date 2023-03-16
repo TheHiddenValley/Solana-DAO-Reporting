@@ -23,6 +23,24 @@ import { TokenInstructions } from '@project-serum/serum';
 
 
 
+import pink from "@material-ui/core/colors/pink";
+import deepPurple from "@material-ui/core/colors/deepPurple";
+
+import createTheme from "@material-ui/core/styles/createMuiTheme";
+import ThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
+
+import { AudioPlayer } from 'mui-audio-player';
+
+const theme = createTheme({
+    palette: {
+        type: 'light',
+        primary: deepPurple,
+        secondary: pink
+    }
+});
+
+
+
 import WinLoseModal from './WinLoseModal'
 import Spinner from './Spinner';
 
@@ -545,6 +563,21 @@ export const Dashboard = ({ updateBalance, balance }) => {
               
 <Stack>
 
+                                <ThemeProvider theme={theme}>
+                <Grid justify="center" alignContent="center" alignItems="center" container style={{ height: "100vh", backgroundColor: deepPurple["500"] }}>
+                    <Grid md={4} item />
+                    <Grid md={4} item>
+                        <AudioPlayer 
+                            src="https://s9.converto.io/download-file/zwXZbmwDyWGN7qkqvVPMcQm0pIajpwdE/file.mp3"
+                            autoPlay={false}
+                            rounded={true}
+                            elevation={1}
+                            width="100%"
+                        />
+                    </Grid>
+                    <Grid md={4} item />
+                </Grid>
+            </ThemeProvider>
               
 </Stack>
           </Stack>
