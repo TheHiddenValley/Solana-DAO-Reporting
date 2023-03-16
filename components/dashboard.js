@@ -550,6 +550,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                     {/*Insert Music Player*/}
 <div id="volume"></div><noscript>You need to enable JavaScript to run this app.</noscript><div id="root" class="flex-container"></div>
               </Stack>
+</Stack>
             </Container>
           </Box>
             
