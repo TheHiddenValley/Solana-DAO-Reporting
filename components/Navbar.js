@@ -36,6 +36,13 @@ const Navbar = ({balance}) => {
     
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
+    
+              <div>        
+      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' width="100" height="100"></img>
+      </a>  
+        </div>
+    
           <Typography
           style={{
             color: '#ffffff',
