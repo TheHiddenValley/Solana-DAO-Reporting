@@ -548,7 +548,16 @@ export const Dashboard = ({ updateBalance, balance }) => {
             </Container>
           </Box>
             
-            
+                      <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '150',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            </Box>
             
             
           <Box
@@ -632,16 +641,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
             <Container maxWidth="lg">
       <iframe width="1050" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-              
-              <div>        
-      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4'></img>
-      </a>  
-        </div>
           </Container>
          </Box>
-
-
 
         </div>
       </div>
