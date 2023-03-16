@@ -524,18 +524,15 @@ export const Dashboard = ({ updateBalance, balance }) => {
                   sx={{ width: '100%' }}
                 >
                   {/* MOB text */}
-<Stack
-                  justifyContent={'space-between'}
-                  flexWrap="wrap"
->
+<Stack>
             <div className="text-left pt-2">
           <div className="hero min-h-16 py-4">
             <div className="text-left hero-content">
               <div className="max-w-lg">
-                  <h1 style={{color: "white", fontSize: "128px"}}>
+                  <h1 style={{color: "white", fontSize: "64px"}}>
                   Fuck it.
                 </h1>
-                <p style={{color: "white", fontSize: "64px"}}>
+                <p style={{color: "white", fontSize: "32px"}}>
                   We MOB
                 </p>
               </div>
@@ -545,7 +542,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </Stack>
               
 <Stack>
-             
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </Stack>
           </Stack>
             </Container>
@@ -558,7 +555,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: '150',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             </Box>
@@ -571,7 +567,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: 'auto',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             
@@ -602,7 +597,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: '300',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             </Box>
@@ -615,7 +609,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: 'auto',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             <Container maxWidth="lg">
@@ -631,7 +624,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: '300',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             </Box>
@@ -644,7 +636,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
               height: 'auto',
               width: '100%',
               p: 3,
-              flexWrap="wrap"
             }}
           >
             <Container maxWidth="lg">
