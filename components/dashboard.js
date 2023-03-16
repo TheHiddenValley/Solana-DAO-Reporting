@@ -643,7 +643,11 @@ export const Dashboard = ({ updateBalance, balance }) => {
 
           </Container>
          </Box>
-
+       <div>        
+      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' width="100" height="100"></img>
+      </a>  
+        </div>
         </div>
       </div>
     </section>
