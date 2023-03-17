@@ -554,8 +554,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
             sx={{
               background: 'rgba(255, 255, 255, 0.5)',
               borderRadius: '10px',
-              height: 'auto',
               width: '100%',
+              flexWrap="wrap"
               p: 3,
             }}
           >
