@@ -681,7 +681,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
         onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
       >
-        <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1086329540760047736/gitbook_logo_icon_168173.png' className='w-20'></img>
+        <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1086329540760047736/gitbook_logo_icon_168173.png' style={{ width: '20px' }}></img>
       </div>
     </a>
   </div>
