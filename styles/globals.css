@@ -3,16 +3,23 @@ html,
 body {
   background-image: url('./background.gif');
   background-repeat: no-repeat;
-  background-size: 100% auto; /* adjust the size */
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   background-color: #fff;
   color: #333;
-  font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 0.875rem;
-    line-height: 1.4;
+  background-image: url('./background.gif');
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
   }
 }
 
