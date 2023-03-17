@@ -532,7 +532,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </Stack>
                   {/* Music Player */}              
 <Stack>
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+              <iframe width="auto" height="50vh" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </Stack>
           </Stack>
             </Container>
