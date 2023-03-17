@@ -591,17 +591,17 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 <Stack
                   direction="row"
                   mt={5}
-                  justifyContent={'space-between'}
+                  justifyContent={'space-evenly'}
                   flexWrap="wrap"
                   sx={{ width: '100%' }}
                 >
                   {/* Main Pie Chart */}
                 <Stack>
-<iframe width="100%" height="400" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
+<iframe width="100%" height="500" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
                 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-<iframe width="100%" height="400" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
+<iframe width="100%" height="500" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
                 </Stack>
               </Stack>
             </Container>
