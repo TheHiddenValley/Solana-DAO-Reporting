@@ -28,11 +28,15 @@ const Navbar = ({balance}) => {
 
   return (
     <nav className="navbar">
-     <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
-        <div className="zoom">
-            <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' className='w-100'></img>
-        </div>
-      </a> 
+<a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
+  <div>
+    <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1082941273201197107/logo.png' 
+      style="width: 100%; transition: transform 0.3s ease-in-out;"
+      onmouseover="this.style.transform='scale(1.2)';" 
+      onmouseout="this.style.transform='scale(1)';"
+    />
+  </div>
+</a>
    
     
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={1}>
