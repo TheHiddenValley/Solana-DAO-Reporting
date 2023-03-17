@@ -502,152 +502,141 @@ export const Dashboard = ({ updateBalance, balance }) => {
   
   return (
 
-    <section className="landing">
-      <div className="dark-overlay">
-        <div className="container">
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: 'auto',
-              width: '100%',
-              p: 3,
-            }}
+<section className="landing">
+  <div className="dark-overlay">
+    <div className="container">
+      <Box
+        sx={{
+          background: 'rgba(255, 255, 255, 0)',
+          borderRadius: '10px',
+          height: 'auto',
+          width: '100%',
+          p: 3,
+        }}
+      >
+        <Container maxWidth="lg">
+          <Stack
+            direction="column"
+            mt={5}
+            sx={{ width: '100%' }}
           >
-            
-            <Container maxWidth="lg">
-                <Stack
-                  direction="row"
-                  mt={5}
-                  justifyContent={'space-between'}
-                  flexWrap="wrap"
-                  sx={{ width: '100%' }}
-                >
-                  {/* MOB text */}
-<Stack>
-            <div className="text-left pt-2">
-          <div className="hero min-h-16 py-4">
-            <div className="text-left hero-content">
-              <div className="max-w-lg">
-                  <h1 style={{color: "white", fontSize: "64px"}}>
-                  Fuck it.
-                </h1>
-                <p style={{color: "white", fontSize: "32px"}}>
-                  We MOB
-                </p>
+            {/* MOB text */}
+            <div className="text-center pt-2">
+              <div className="hero min-h-16 py-4">
+                <div className="text-center hero-content">
+                  <div className="max-w-lg">
+                    <h1 style={{color: "white", fontSize: "48px"}}>
+                      Fuck it.
+                    </h1>
+                    <p style={{color: "white", fontSize: "24px"}}>
+                      We MOB
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-         </div>
-          </div>
-</Stack>
-              
-<Stack>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-</Stack>
+
+            <Stack
+              direction="column"
+              alignItems="center"
+              justifyContent="center"
+              mt={5}
+              sx={{ width: '100%' }}
+            >
+              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </Stack>
+
+            {/* Main Pie Chart */}
+            <Stack
+              direction="column"
+              alignItems="center"
+              justifyContent="center"
+              mt={5}
+              sx={{ width: '100%' }}
+            >
+              <iframe width="100%" height="auto" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
+            </Stack>
+
+            {/* Sharky.fi Profit Chart */}
+            <Stack
+              direction="column"
+              alignItems="center"
+              justifyContent="center"
+              mt={5}
+              sx={{ width: '100%' }}
+            >
+              <iframe width="100%" height="auto" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
+            </Stack>
           </Stack>
-            </Container>
-          </Box>
-            
-                      <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: '150',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            </Box>
-            
-            
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0.5)',
-              borderRadius: '10px',
-              height: 'auto',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            
-            <Container maxWidth="lg">
-                <Stack
-                  direction="row"
-                  mt={5}
-                  justifyContent={'space-between'}
-                  flexWrap="wrap"
-                  sx={{ width: '100%' }}
-                >
-                  {/* Main Pie Chart */}
-                <Stack>
-<iframe width="474" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
-                </Stack>
-                  {/* Sharky.fi Profit Chart */}
-                <Stack>
-<iframe width="464" height="376" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
-                </Stack>
-              </Stack>
-            </Container>
-          </Box>
+        </Container>
+      </Box>
 
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: '300',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            </Box>
+ <Box
+  sx={{
+    background: 'rgba(255, 255, 255, 0)',
+    borderRadius: '10px',
+    height: '150px',
+    width: '100%',
+    p: 2,
+  }}
+/>
 
+<Box
+  sx={{
+    background: 'rgba(255, 255, 255, 0.5)',
+    borderRadius: '10px',
+    height: 'auto',
+    width: '100%',
+    p: 2,
+  }}
+>
+  <Container maxWidth="sm">
+    <iframe
+      width="100%"
+      height="300"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
+    />
+  </Container>
+</Box>
 
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0.5)',
-              borderRadius: '10px',
-              height: 'auto',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            <Container maxWidth="lg">
-                    <iframe width="1050" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-          </Container>
-         </Box>
+<Box
+  sx={{
+    background: 'rgba(255, 255, 255, 0)',
+    borderRadius: '10px',
+    height: '150px',
+    width: '100%',
+    p: 2,
+  }}
+/>
 
+<Box
+  sx={{
+    background: 'rgba(255, 255, 255, 0.5)',
+    borderRadius: '10px',
+    height: 'auto',
+    width: '100%',
+    p: 2,
+  }}
+>
+  <Container maxWidth="sm">
+    <iframe
+      width="100%"
+      height="400"
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"
+    />
+  </Container>
+</Box>
 
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: '300',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            </Box>
-
-
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0.5)',
-              borderRadius: '10px',
-              height: 'auto',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            <Container maxWidth="lg">
-      <iframe width="1050" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-          </Container>
-         </Box>
-       <div>        
-      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' width="100" height="100"></img>
-      </a>  
-        </div>
+<div
+  sx={{
+    textAlign: 'center',
+    my: 3,
+  }}
+>
+  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+    <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' width="80" height="80"></img>
+  </a>  
+</div>
         </div>
       </div>
     </section>
