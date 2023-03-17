@@ -535,7 +535,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
           width: '100%',
           margin: '0 auto',
           display: 'flex',
-          flexDirection: 'column',
+          flexDirection: 'row',
         }}
       >
         <iframe
@@ -605,19 +605,19 @@ export const Dashboard = ({ updateBalance, balance }) => {
     body {
       font-size: 16px;
       color: #333;
-    }
+    };
   
     /* Add padding and margins to the sheet */
     .sheet-container {
       padding: 20px;
       margin: 0 auto;
       max-width: 960px;
-    }
+    };
   
     /* Hide the sheet's header row */
     .sheet-header-row {
       display: none;
-    }
+    };
   </style>                
 </Stack>
                   {/* Sharky.fi Profit Chart */}
