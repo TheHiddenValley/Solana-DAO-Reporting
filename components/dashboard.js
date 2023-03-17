@@ -597,14 +597,28 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 >
                   {/* Main Pie Chart */}
 <Stack>
-  <div className="sheet-container">
-    <iframe title="Google Sheet" width="100%" height="380" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>
-  </div>             
+  <iframe
+  title="Main Pie Chart"
+  width="100%"
+  height="auto"
+  frameBorder="0"
+  scrolling="no"
+  style={{ display: 'block', margin: '0 auto' }}
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"
+></iframe>          
 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-<iframe width="auto" height="380" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
-                </Stack>
+<iframe 
+  title="Sharkyfi Chart"
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"
+  width="100%"
+  height="auto"
+  frameBorder="0" 
+  scrolling="no"
+  style={{ display: 'block', margin: '0 auto' }}
+></iframe>
+              </Stack>
               </Stack>
             </Container>
           </Box>
