@@ -14,8 +14,6 @@ import AutoModeIcon from '@mui/icons-material/AutoMode';
 import PaidIcon from '@mui/icons-material/Paid';
 import { styled } from '@mui/system';
 
-import VotingSystem from "./VotingSystem";
-
 import { getOrCreateAssociatedTokenAccount, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { Account, STAKE_CONFIG_ID } from "@solana/web3.js";
@@ -535,7 +533,24 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </Stack>
          
 <Stack>
-<VotingSystem />
+    <div
+      className="strawpoll-embed"
+      id="strawpoll_X3nk4mxxQgE"
+      style={{ height: "544px", maxWidth: "640px", width: "100%", margin: "0 auto", display: "flex", flexDirection: "column" }}
+    >
+      <iframe
+        title="StrawPoll Embed"
+        id="strawpoll_iframe_X3nk4mxxQgE"
+        src="https://strawpoll.com/embed/polls/X3nk4mxxQgE"
+        style={{ position: "static", visibility: "visible", display: "block", width: "100%", flexGrow: 1 }}
+        frameborder="0"
+        allowFullScreen
+        allowTransparency
+      >
+        Loading...
+      </iframe>
+      <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script>
+    </div>
 </Stack>
           </Stack>
             </Container>
