@@ -675,7 +675,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 <div style={{ position: 'fixed', bottom: 0, width: '80%' }}>
   <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="25%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
 </div>
-<div style={{ position: 'fixed', bottom: 0, right: 0, width: '10%' }}>
+<div style={{ position: 'fixed', bottom: 0, right: 15, width: '10%' }}>
   <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
     <div
       className="zoomer"
