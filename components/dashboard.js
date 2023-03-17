@@ -500,6 +500,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
     width: '400px',
   }));
   
+  
   return (
 
     <section className="landing">
@@ -530,9 +531,17 @@ export const Dashboard = ({ updateBalance, balance }) => {
          </div>
           </div>
 </Stack>
-                  {/* Music Player */}              
+         
 <Stack>
-              <iframe width="auto" height="50vh" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        {/* Add the SoundCloud iframe player */}
+        <iframe
+          width="100%"
+          height="166"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
+        ></iframe>
 </Stack>
           </Stack>
             </Container>
@@ -640,6 +649,9 @@ export const Dashboard = ({ updateBalance, balance }) => {
         </div>
         </div>
       </div>
+    <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
+      <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
     </section>
   );
 }
