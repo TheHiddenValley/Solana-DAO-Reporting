@@ -516,51 +516,37 @@ export const Dashboard = ({ updateBalance, balance }) => {
   >
     {/* MOB text */}
     <Stack>
-      <div className="text-left pt-2">
-              <h1 style={{ color: 'white', fontSize: '64px' }}>
-                Fuck it.
-              </h1>
-              <p style={{ color: 'white', fontSize: '48px' }}>
-                We MOB
-              </p>
-                <p style={{ color: 'white', fontSize: '64px' }}>
-                </p>
-              <h1 style={{ color: 'white', fontSize: '24px' }}>
-                Mob Manifesto
-              </h1>
-              <p style={{ color: 'white', fontSize: '16px' }}>
-                First of all: The Mob Does Not Compromise. 
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                The Infected Mob is the stratum of Mob Studios,
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                A Web 3 entity with big plans.
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                We&apos;re here to better the ecosystem once and for all,
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                and we&apos;re not afraid of being ambitious.
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                Mob Studios is a team of visionaries,
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                all highly competent within their respective fields,
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                and combined with a well-organized structure;
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                we&apos;re more than confident our impact will not go unnoticed.
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                </p>
-                <p style={{ color: 'white', fontSize: '16px' }}>
-                Get ready to be #NFCTD
-              </p>
-      </div>
+<div style={{ color: 'white', fontSize: '16px' }}>
+  <h1 style={{ fontSize: '64px' }}>Fuck it. We MOB</h1>
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '40px',
+              width: '100%',
+            }}
+          >
+           </Box>
+  <h1 style={{ fontSize: '24px' }}>Mob Manifesto</h1>
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '20px',
+              width: '100%',
+            }}
+          >
+  <p>First of all: The Mob Does Not Compromise.</p>
+  <p>The Infected Mob is the stratum of Mob Studios,</p>
+  <p>A Web 3 entity with big plans.</p>
+  <p>We&apos;re here to better the ecosystem once and for all,</p>
+  <p>and we&apos;re not afraid of being ambitious.</p>
+  <p>Mob Studios is a team of visionaries,</p>
+  <p>all highly competent within their respective fields,</p>
+  <p>and combined with a well-organized structure;</p>
+  <p>we&apos;re more than confident our impact will not go unnoticed.</p>
+  <p>Get ready to be #NFCTD</p>
+</div>
     </Stack>
 
     <Stack>
