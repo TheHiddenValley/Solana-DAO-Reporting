@@ -538,7 +538,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
           width="100%"
           height="166"
           scrolling="no"
-          frameborder="no"
+          frameBorder="no"
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
         ></iframe>
@@ -650,7 +650,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         </div>
       </div>
     <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-      <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d" width="100%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
     </section>
   );
