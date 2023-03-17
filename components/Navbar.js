@@ -30,7 +30,7 @@ const Navbar = ({balance}) => {
     <nav className="navbar">
 <a href="https://www.mobstudios.io/" target="_blank" rel="noreferrer">
   <div
-    className="zoom"
+    className="zoomer"
     onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
     onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
   >
