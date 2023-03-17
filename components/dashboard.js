@@ -527,40 +527,10 @@ export const Dashboard = ({ updateBalance, balance }) => {
     </Stack>
 
     <Stack>
-      <div
-        className="strawpoll-embed"
-        id="strawpoll_X3nk4mxxQgE"
-        style={{
-          height: '550px',
-          width: '450',
-          margin: '0 auto',
-          display: 'flex',
-          flexDirection: 'row',
-        }}
-      >
-        <iframe
-          title="StrawPoll Embed"
-          id="strawpoll_iframe_X3nk4mxxQgE"
-          src="https://strawpoll.com/embed/polls/X3nk4mxxQgE"
-          style={{
-            position: 'static',
-            visibility: 'visible',
-            display: 'block',
-            width: '100%',
-            flexGrow: 1,
-          }}
-          frameBorder="0"
-          allowFullScreen
-          allowTransparency
-        >
-          Loading...
-        </iframe>
-        <script
-          async
-          src="https://cdn.strawpoll.com/dist/widgets.js"
-          charset="utf-8"
-        ></script>
-      </div>
+<div style={{ height: '544px', maxWidth: '640px', width: '100%', margin: '0 auto', display: 'flex', flexDirection: 'column' }}>
+  <iframe title="StrawPoll Embed" id="strawpoll_iframe_eNg69oWd4nA" src="https://strawpoll.com/embed/polls/eNg69oWd4nA" style={{ position: 'static', visibility: 'visible', display: 'block', width: '100%', flexGrow: 1 }} frameBorder="0" allowFullScreen allowTransparency>Loading...</iframe>
+  <script async src="https://cdn.strawpoll.com/dist/widgets.js" charSet="utf-8"></script>
+</div>
     </Stack>
   </Stack>
 </Container>
