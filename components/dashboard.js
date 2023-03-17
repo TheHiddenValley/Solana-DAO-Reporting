@@ -599,8 +599,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
 <Stack>
   <iframe
   title="Main Pie Chart"
-  width="100%"
-  height="auto"
+  width="403" 
+  height="311" 
   frameBorder="0"
   scrolling="no"
   style={{ display: 'block', margin: '0 auto' }}
@@ -612,8 +612,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
 <iframe 
   title="Sharkyfi Chart"
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"
-  width="100%"
-  height="auto"
+  width="403" 
+  height="311" 
   frameBorder="0" 
   scrolling="no"
   style={{ display: 'block', margin: '0 auto' }}
