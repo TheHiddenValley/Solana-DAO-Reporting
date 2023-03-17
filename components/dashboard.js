@@ -533,15 +533,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </Stack>
          
 <Stack>
-        {/* Add the SoundCloud iframe player */}
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameBorder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
-        ></iframe>
+<VotingSystem />
 </Stack>
           </Stack>
             </Container>
