@@ -19,17 +19,17 @@ function VotingSystem() {
       <h2>Vote for your favorite option:</h2>
       <div className="options">
         <div className="option">
-          <img src="option1.png" alt="Option 1" onClick={() => handleVote("option1")} />
+          <img src="https://www.mobstudios.io/lore-img.jpg" alt="Option 1" onClick={() => handleVote("option1")} />
           <p>Option 1</p>
           <p>Votes: {votes.option1}</p>
         </div>
         <div className="option">
-          <img src="option2.png" alt="Option 2" onClick={() => handleVote("option2")} />
+          <img src="https://www.mobstudios.io/lore-img.jpg" alt="Option 2" onClick={() => handleVote("option2")} />
           <p>Option 2</p>
           <p>Votes: {votes.option2}</p>
         </div>
         <div className="option">
-          <img src="option3.png" alt="Option 3" onClick={() => handleVote("option3")} />
+          <img src="https://www.mobstudios.io/lore-img.jpg" alt="Option 3" onClick={() => handleVote("option3")} />
           <p>Option 3</p>
           <p>Votes: {votes.option3}</p>
         </div>
