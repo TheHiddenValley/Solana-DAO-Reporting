@@ -48,7 +48,7 @@ const Navbar = ({balance}) => {
             color: '#ffffff',
             fontSize: '18px',
             fontWeight: 'bold',
-            fontFamily: 'Helvetica-Bold,AdobeInvisFont,MyriadPro-Regular',
+            fontFamily: 'Helvetica-Bold,AdobeInvisFont,MyriadPro-Regular,Arial,sans-serif',
           }}
         >
           {
