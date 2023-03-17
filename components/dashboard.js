@@ -64,13 +64,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
   const [isClaimable, setIsClaimable] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [isClaming, setIsClaming] = useState(false)
-  
-  const MusicPlayer = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
 
   useEffect(() => {
     const init = async () => {
@@ -657,12 +650,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         </div>
       </div>
     <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-      <button onClick={toggleVisibility}>
-        {isVisible ? 'Minimize' : 'Maximize'}
-      </button>
-      <div style={{ display: isVisible ? 'block' : 'none' }}>
-        <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d" width="20%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </div>
+      <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d" width="20%" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
     </section>
   );
