@@ -530,10 +530,10 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 First of all: The Mob Does Not Compromise. 
                 </p>
                 <p style={{ color: 'white', fontSize: '32px' }}>
-                The Infected Mob is the stratum of Mob Studios - a Web 3 entity with big plans. We're here to better the ecosystem once and for all, and we're not afraid of being ambitious.
+                The Infected Mob is the stratum of Mob Studios - a Web 3 entity with big plans. We&apos;re here to better the ecosystem once and for all, and we&apos;re not afraid of being ambitious.
                 </p>
                 <p style={{ color: 'white', fontSize: '32px' }}>
-                Mob Studios is a team of visionaries, all highly competent within their respective fields, and combined with a well-organized structure; we're more than confident our impact will not go unnoticed.
+                Mob Studios is a team of visionaries, all highly competent within their respective fields, and combined with a well-organized structure; we&apos;re more than confident our impact will not go unnoticed.
                 </p>
                 <p style={{ color: 'white', fontSize: '32px' }}>
                 </p>
