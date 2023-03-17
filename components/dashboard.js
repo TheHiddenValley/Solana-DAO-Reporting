@@ -520,7 +520,21 @@ export const Dashboard = ({ updateBalance, balance }) => {
             mt={5}
             sx={{ width: '100%' }}
           >
-            {/* MOB text */}
+       <Box
+        sx={{
+          background: 'rgba(255, 255, 255, 0)',
+          borderRadius: '10px',
+          height: 'auto',
+          width: '100%',
+          p: 3,
+        }}
+      >
+         {/* MOB text */}
+          <Stack
+            direction="column"
+            mt={5}
+            sx={{ width: '100%' }}
+          >
             <div className="text-center pt-2">
               <div className="hero min-h-16 py-4">
                 <div className="text-center hero-content">
@@ -535,6 +549,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 </div>
               </div>
             </div>
+          </Stack>
 
             <Stack
               direction="column"
@@ -545,6 +560,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
             >
               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </Stack>
+          </Box>
 
             {/* Main Pie Chart */}
             <Stack
