@@ -547,6 +547,22 @@ export const Dashboard = ({ updateBalance, balance }) => {
   <p>and combined with a well-organized structure;</p>
   <p>we&apos;re more than confident our impact will not go unnoticed.</p>
   <p>Get ready to be #NFCTD</p>
+          <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '40px',
+              width: '100%',
+            }}
+          >
+           </Box>
+<h1 style={{ fontSize: '24px', transition: 'font-size 0.3s ease' }}>
+  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}>
+     onMouseOver={(e) => e.currentTarget.style.color = 'red'}
+     onMouseOut={(e) => e.currentTarget.style.color = 'white'}>
+    SolympusMOB Gitbook or Whitepaper
+  </a>
+</h1>
 </div>
     </Stack>
 
@@ -672,19 +688,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
          </Box>
         </div>
       </div>
-<div style={{ position: 'fixed', bottom: 0, width: '80%' }}>
-  <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="25%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
-</div>
-<div style={{ position: 'fixed', bottom: 0, right: 15, width: '10%' }}>
-  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-    <div
-      className="zoomer"
-      onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
-      onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-    >
-      <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1086329540760047736/gitbook_logo_icon_168173.png' style={{ width: '100%', height: 'auto' }}></img>
-    </div>
-  </a>
+<div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
+  <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
 </div>
     </section>
   );
