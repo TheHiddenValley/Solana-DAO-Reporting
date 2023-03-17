@@ -14,6 +14,8 @@ import AutoModeIcon from '@mui/icons-material/AutoMode';
 import PaidIcon from '@mui/icons-material/Paid';
 import { styled } from '@mui/system';
 
+import VotingSystem from "./VotingSystem";
+
 import { getOrCreateAssociatedTokenAccount, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { Account, STAKE_CONFIG_ID } from "@solana/web3.js";
