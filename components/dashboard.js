@@ -642,16 +642,11 @@ export const Dashboard = ({ updateBalance, balance }) => {
 
           </Container>
          </Box>
-       <div>        
-      <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-        <img src='https://avatars.githubusercontent.com/u/7111340?s=280&v=4' width="100" height="100"></img>
-      </a>  
-        </div>
         </div>
       </div>
     <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-      <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0" width="20%" height="80" frameBorder="0" allow="autoplay" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>
+<iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
+</div>
     </section>
   );
 }
