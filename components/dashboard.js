@@ -517,18 +517,12 @@ export const Dashboard = ({ updateBalance, balance }) => {
     {/* MOB text */}
     <Stack>
       <div className="text-left pt-2">
-        <div className="hero min-h-16 py-4">
-          <div className="text-left hero-content">
-            <div className="max-w-lg">
               <h1 style={{ color: 'white', fontSize: '64px' }}>
                 Fuck it.
               </h1>
               <p style={{ color: 'white', fontSize: '32px' }}>
                 We MOB
               </p>
-            </div>
-          </div>
-        </div>
       </div>
     </Stack>
 
