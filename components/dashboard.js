@@ -536,6 +536,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
               width: '100%',
             }}
           >
+           </Box>
   <p>First of all: The Mob Does Not Compromise.</p>
   <p>The Infected Mob is the stratum of Mob Studios,</p>
   <p>A Web 3 entity with big plans.</p>
@@ -672,7 +673,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         </div>
       </div>
     <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-<iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
+<iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
 </div>
     </section>
   );
