@@ -506,55 +506,71 @@ export const Dashboard = ({ updateBalance, balance }) => {
     <section className="landing">
       <div className="dark-overlay">
         <div className="container">
-            <Container maxWidth="lg">
-                <Stack
-                  direction="row"
-                  mt={5}
-                  justifyContent={'space-between'}
-                  flexWrap="wrap"
-                  sx={{ width: '100%' }}
-                >
-                  {/* MOB text */}
-<Stack>
-            <div className="text-left pt-2">
-          <div className="hero min-h-16 py-4">
-            <div className="text-left hero-content">
-              <div className="max-w-lg">
-                  <h1 style={{color: "white", fontSize: "64px"}}>
-                  Fuck it.
-                </h1>
-                <p style={{color: "white", fontSize: "32px"}}>
-                  We MOB
-                </p>
-              </div>
+<Container maxWidth="lg">
+  <Stack
+    direction="row"
+    mt={5}
+    justifyContent="space-between"
+    flexWrap="wrap"
+    sx={{ width: '100%', gap: '2rem' }}
+  >
+    {/* MOB text */}
+    <Stack>
+      <div className="text-left pt-2">
+        <div className="hero min-h-16 py-4">
+          <div className="text-left hero-content">
+            <div className="max-w-lg">
+              <h1 style={{ color: 'white', fontSize: '64px' }}>
+                Fuck it.
+              </h1>
+              <p style={{ color: 'white', fontSize: '32px' }}>
+                We MOB
+              </p>
             </div>
-         </div>
           </div>
-</Stack>
-         
-<Stack>
-    <div
-      className="strawpoll-embed"
-      id="strawpoll_X3nk4mxxQgE"
-      style={{ height: "544px", maxWidth: "640px", width: "100%", margin: "0 auto", display: "flex", flexDirection: "column" }}
-    >
-      <iframe
-        title="StrawPoll Embed"
-        id="strawpoll_iframe_X3nk4mxxQgE"
-        src="https://strawpoll.com/embed/polls/X3nk4mxxQgE"
-        style={{ position: "static", visibility: "visible", display: "block", width: "100%", flexGrow: 1 }}
-        frameBorder="0"
-        allowFullScreen
-        allowTransparency
-      >
-        Loading...
-      </iframe>
-      <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script>
-    </div>
-</Stack>
-          </Stack>
-            </Container>
+        </div>
+      </div>
+    </Stack>
 
+    <Stack>
+      <div
+        className="strawpoll-embed"
+        id="strawpoll_X3nk4mxxQgE"
+        style={{
+          height: '544px',
+          maxWidth: '640px',
+          width: '100%',
+          margin: '0 auto',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <iframe
+          title="StrawPoll Embed"
+          id="strawpoll_iframe_X3nk4mxxQgE"
+          src="https://strawpoll.com/embed/polls/X3nk4mxxQgE"
+          style={{
+            position: 'static',
+            visibility: 'visible',
+            display: 'block',
+            width: '100%',
+            flexGrow: 1,
+          }}
+          frameBorder="0"
+          allowFullScreen
+          allowTransparency
+        >
+          Loading...
+        </iframe>
+        <script
+          async
+          src="https://cdn.strawpoll.com/dist/widgets.js"
+          charset="utf-8"
+        ></script>
+      </div>
+    </Stack>
+  </Stack>
+</Container>
             
                       <Box
             sx={{
