@@ -512,6 +512,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
           height: 'auto',
           width: '100%',
           p: 3,
+          direction="row"
         }}
       >
         <Container maxWidth="lg">
@@ -533,7 +534,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
           <Stack
             direction="column"
             mt={5}
-            sx={{ width: '100%' }}
+            sx={{ width: '50%' }}
           >
             <div className="text-center pt-2">
               <div className="hero min-h-16 py-4">
@@ -551,13 +552,11 @@ export const Dashboard = ({ updateBalance, balance }) => {
             </div>
           </Stack>
 
-            <Stack
-              direction="column"
-              alignItems="center"
-              justifyContent="center"
-              mt={5}
-              sx={{ width: '100%' }}
-            >
+          <Stack
+            direction="column"
+            mt={5}
+            sx={{ width: '50%' }}
+          >
               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </Stack>
           </Box>
