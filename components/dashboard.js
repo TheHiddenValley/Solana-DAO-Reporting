@@ -510,7 +510,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
   <Stack
     direction="row"
     mt={5}
-    justifyContent="space-between"
+    justifyContent="space-evenly"
     flexWrap="wrap"
     sx={{ width: '100%', gap: '2rem' }}
   >
