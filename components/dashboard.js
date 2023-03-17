@@ -672,19 +672,19 @@ export const Dashboard = ({ updateBalance, balance }) => {
          </Box>
         </div>
       </div>
-<div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
+<div style={{ position: 'fixed', bottom: 0, width: '80%' }}>
   <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
-  <div style={{right: 0}}>
-    <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
-      <div
-        className="zoomer"
-        onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
-        onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-      >
-        <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1086329540760047736/gitbook_logo_icon_168173.png' style={{ width: '20px' }}></img>
-      </div>
-    </a>
-  </div>
+</div>
+<div style={{ position: 'fixed', bottom: 0, right: 0, width: '20%' }}>
+  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer">
+    <div
+      className="zoomer"
+      onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.5)'}
+      onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+    >
+      <img src='https://cdn.discordapp.com/attachments/1075476230637375528/1086329540760047736/gitbook_logo_icon_168173.png' style={{ width: '20px', height: 'auto' }}></img>
+    </div>
+  </a>
 </div>
     </section>
   );
