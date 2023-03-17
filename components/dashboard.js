@@ -531,8 +531,8 @@ export const Dashboard = ({ updateBalance, balance }) => {
         className="strawpoll-embed"
         id="strawpoll_X3nk4mxxQgE"
         style={{
-          height: '544px',
-          width: '100%',
+          height: '550px',
+          width: '450',
           margin: '0 auto',
           display: 'flex',
           flexDirection: 'row',
