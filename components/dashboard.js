@@ -543,7 +543,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         id="strawpoll_iframe_X3nk4mxxQgE"
         src="https://strawpoll.com/embed/polls/X3nk4mxxQgE"
         style={{ position: "static", visibility: "visible", display: "block", width: "100%", flexGrow: 1 }}
-        frameborder="0"
+        frameBorder="0"
         allowFullScreen
         allowTransparency
       >
