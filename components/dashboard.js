@@ -505,16 +505,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
     <section className="landing">
       <div className="dark-overlay">
         <div className="container">
-          <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: 'auto',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            
             <Container maxWidth="lg">
                 <Stack
                   direction="row"
@@ -540,13 +530,13 @@ export const Dashboard = ({ updateBalance, balance }) => {
          </div>
           </div>
 </Stack>
-              
+                  {/* Music Player */}              
 <Stack>
               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rBiI6dJxfro?controls=0&autoplay=1" title="Lore Master by Russ A Buss" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 </Stack>
           </Stack>
             </Container>
-          </Box>
+
             
                       <Box
             sx={{
@@ -580,11 +570,11 @@ export const Dashboard = ({ updateBalance, balance }) => {
                 >
                   {/* Main Pie Chart */}
                 <Stack>
-<iframe width="474" height="371" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
+<iframe width="100%" height="auto" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>                  
                 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
-<iframe width="464" height="376" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
+<iframe width="100%" height="auto" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=294631629&amp;format=interactive"></iframe>                 
                 </Stack>
               </Stack>
             </Container>
@@ -612,7 +602,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
             }}
           >
             <Container maxWidth="lg">
-                    <iframe width="1050" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    <iframe width="100%" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
           </Container>
          </Box>
 
@@ -639,7 +629,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
             }}
           >
             <Container maxWidth="lg">
-      <iframe width="1050" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      <iframe width="100%" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubhtml?gid=1856558530&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
           </Container>
          </Box>
