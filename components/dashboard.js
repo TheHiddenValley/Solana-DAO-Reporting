@@ -523,21 +523,21 @@ export const Dashboard = ({ updateBalance, balance }) => {
               <p style={{ color: 'white', fontSize: '32px' }}>
                 We MOB
               </p>
-              <h1 style={{ color: 'white', fontSize: '64px' }}>
+              <h1 style={{ color: 'white', fontSize: '48px' }}>
                 Mob Manifesto
               </h1>
-              <p style={{ color: 'white', fontSize: '32px' }}>
+              <p style={{ color: 'white', fontSize: '12px' }}>
                 First of all: The Mob Does Not Compromise. 
                 </p>
-                <p style={{ color: 'white', fontSize: '32px' }}>
+                <p style={{ color: 'white', fontSize: '12px' }}>
                 The Infected Mob is the stratum of Mob Studios - a Web 3 entity with big plans. We&apos;re here to better the ecosystem once and for all, and we&apos;re not afraid of being ambitious.
                 </p>
-                <p style={{ color: 'white', fontSize: '32px' }}>
+                <p style={{ color: 'white', fontSize: '12px' }}>
                 Mob Studios is a team of visionaries, all highly competent within their respective fields, and combined with a well-organized structure; we&apos;re more than confident our impact will not go unnoticed.
                 </p>
-                <p style={{ color: 'white', fontSize: '32px' }}>
+                <p style={{ color: 'white', fontSize: '12px' }}>
                 </p>
-                <p style={{ color: 'white', fontSize: '32px' }}>
+                <p style={{ color: 'white', fontSize: '12px' }}>
                 Get ready to be #NFCTD
               </p>
       </div>
