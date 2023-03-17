@@ -523,41 +523,41 @@ export const Dashboard = ({ updateBalance, balance }) => {
               <p style={{ color: 'white', fontSize: '48px' }}>
                 We MOB
               </p>
-                <p style={{ color: 'white', fontSize: '36px' }}>
+                <p style={{ color: 'white', fontSize: '64px' }}>
                 </p>
-              <h1 style={{ color: 'white', fontSize: '36px' }}>
+              <h1 style={{ color: 'white', fontSize: '24px' }}>
                 Mob Manifesto
               </h1>
-              <p style={{ color: 'white', fontSize: '24px' }}>
+              <p style={{ color: 'white', fontSize: '16px' }}>
                 First of all: The Mob Does Not Compromise. 
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 The Infected Mob is the stratum of Mob Studios,
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 A Web 3 entity with big plans.
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 We&apos;re here to better the ecosystem once and for all,
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 and we&apos;re not afraid of being ambitious.
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 Mob Studios is a team of visionaries,
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 all highly competent within their respective fields,
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 and combined with a well-organized structure;
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 we&apos;re more than confident our impact will not go unnoticed.
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 </p>
-                <p style={{ color: 'white', fontSize: '24px' }}>
+                <p style={{ color: 'white', fontSize: '16px' }}>
                 Get ready to be #NFCTD
               </p>
       </div>
