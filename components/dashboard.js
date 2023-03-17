@@ -599,26 +599,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
 <Stack>
   <div className="sheet-container">
     <iframe title="Google Sheet" width="100%" height="380" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTenhHYcAY7N4rM6bGeYupReT6yY5DaogD7vMsJa8Jn8DvbDmdEaXIb_n75qzZTltSPD0obpjrVxGsM/pubchart?oid=1855293623&amp;format=interactive"></iframe>
-  </div>
-  <style>
-    /* Adjust the font size and color of the text */
-    body {
-      font-size: 16px;
-      color: #333;
-    };
-  
-    /* Add padding and margins to the sheet */
-    .sheet-container {
-      padding: 20px;
-      margin: 0 auto;
-      max-width: 960px;
-    };
-  
-    /* Hide the sheet's header row */
-    .sheet-header-row {
-      display: none;
-    };
-  </style>                
+  </div>             
 </Stack>
                   {/* Sharky.fi Profit Chart */}
                 <Stack>
