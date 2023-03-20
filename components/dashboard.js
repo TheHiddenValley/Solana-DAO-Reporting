@@ -689,7 +689,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
         </div>
       </div>
 <div style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-  <iframe src="https://open.spotify.com/embed/track/5ZULALImTm80tzUbYQYM9d?utm_source=generator&theme=0&autoplay=true" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/1KhhvjUPTxexPzPGsfEPbO?utm_source=generator&theme=0&autoplay=true" width="20%" height="80" frameBorder="0" allow="autoplay; encrypted-media" allowtransparency="true"></iframe>
 </div>
     </section>
   );
