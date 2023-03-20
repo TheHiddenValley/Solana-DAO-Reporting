@@ -566,17 +566,6 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </div>
     </Stack>
 
-              <Box
-            sx={{
-              background: 'rgba(255, 255, 255, 0)',
-              borderRadius: '10px',
-              height: '100',
-              width: '100%',
-              p: 3,
-            }}
-          >
-            </Box>
-
     <Stack>
 <div style={{ height: '544px', maxWidth: '640px', width: '100%', margin: '0 auto', display: 'flex', flexDirection: 'column' }}>
   <iframe title="StrawPoll Embed" id="strawpoll_iframe_eNg69oWd4nA" src="https://strawpoll.com/embed/polls/eNg69oWd4nA" style={{ position: 'static', visibility: 'visible', display: 'block', width: '100%', flexGrow: 1 }} frameBorder="0" allowFullScreen allowTransparency>Loading...</iframe>
