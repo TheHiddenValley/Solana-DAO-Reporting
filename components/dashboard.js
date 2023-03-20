@@ -557,7 +557,7 @@ export const Dashboard = ({ updateBalance, balance }) => {
           >
            </Box>
 <h1 style={{ fontSize: '24px', transition: 'font-size 0.3s ease' }}>
-  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'black' }}
+  <a href="https://the-hidden-valley.gitbook.io/solympusmob/" target="_blank" rel="noreferrer" style={{ textDecoration: 'none', color: 'white' }}
      onMouseOver={(e) => e.currentTarget.style.color = 'red'}
      onMouseOut={(e) => e.currentTarget.style.color = 'white'}>
     SolympusMOB Gitbook or Whitepaper
@@ -565,6 +565,17 @@ export const Dashboard = ({ updateBalance, balance }) => {
 </h1>
 </div>
     </Stack>
+
+              <Box
+            sx={{
+              background: 'rgba(255, 255, 255, 0)',
+              borderRadius: '10px',
+              height: '100',
+              width: '100%',
+              p: 3,
+            }}
+          >
+            </Box>
 
     <Stack>
 <div style={{ height: '544px', maxWidth: '640px', width: '100%', margin: '0 auto', display: 'flex', flexDirection: 'column' }}>
