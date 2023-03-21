@@ -17,7 +17,9 @@ const WalletConnectionProvider = ({ children }) => {
 
   const wallets = useMemo(
     () => [
-      new PhantomWalletAdapter(),
+    new PhantomWalletAdapter(),
+    new SlopeWallet(),
+    new SolflareWallet(),
     ],
     []
   );
