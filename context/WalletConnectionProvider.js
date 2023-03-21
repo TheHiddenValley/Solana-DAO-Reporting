@@ -5,7 +5,8 @@ import {
 } from "@solana/wallet-adapter-react";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import {
-  PhantomWalletAdapter
+    PhantomWalletAdapter,
+    SolflareWalletAdapter,
 } from "@solana/wallet-adapter-wallets";
 import { clusterApiUrl } from "@solana/web3.js";
 import { FC, useMemo } from "react";
@@ -18,7 +19,6 @@ const WalletConnectionProvider = ({ children }) => {
   const wallets = useMemo(
     () => [
     new PhantomWalletAdapter(),
-    new SlopeWallet(),
     new SolflareWallet(),
     ],
     []
